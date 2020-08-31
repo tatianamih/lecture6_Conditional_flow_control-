@@ -87,7 +87,6 @@ public class SignComparatoTest {
         Integer expected = 531;
         Integer actual = number.hashCode();
         assertEquals(expected, actual);
-
     }
 
     @Test
