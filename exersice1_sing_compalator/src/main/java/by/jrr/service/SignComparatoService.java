@@ -5,7 +5,7 @@ import by.jrr.bean.SignComparato;
 public class SignComparatoService {
 
     public SignComparatoService() {
-//  no args constructor
+// no args constructor
     }
 
        public String determineTheSign(SignComparato signComparato) {

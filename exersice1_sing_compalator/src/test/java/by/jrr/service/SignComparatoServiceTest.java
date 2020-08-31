@@ -11,6 +11,7 @@ public class SignComparatoServiceTest {
     public SignComparatoServiceTest() {
 // no args constructor
     }
+
     Logger logger = LoggerFactory.getLogger(SignComparatoServiceTest.class);
 
     @Test

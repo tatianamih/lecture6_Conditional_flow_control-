@@ -47,6 +47,7 @@ public class SignComparatoTest {
         boolean actual = firstNumber.equals(secondNumber);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsTrueOfTwoNumbers() {
         SignComparato firstNumber = new SignComparato();
@@ -59,6 +60,7 @@ public class SignComparatoTest {
         boolean actual = firstNumber.equals(secondNumber);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsTrue() {
         SignComparato number = new SignComparato();
@@ -68,6 +70,7 @@ public class SignComparatoTest {
         boolean actual = number.equals(number);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsFalse() {
         SignComparato number = new SignComparato();
