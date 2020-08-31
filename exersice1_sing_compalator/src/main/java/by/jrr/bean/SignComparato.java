@@ -6,7 +6,7 @@ public class SignComparato {
     private int number;
 
     public SignComparato() {
-       // no args constructor
+       //  no args constructor
     }
 
     public int getNumber() {
