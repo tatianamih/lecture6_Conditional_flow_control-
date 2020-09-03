@@ -8,7 +8,6 @@ public class StockService {
     public StockService(Stock stock) {
         this.stock = stock;
     }
-   
 
     public void updatePrice(double newPrice) {
         if (newPrice < stock.getMinPrice()) {

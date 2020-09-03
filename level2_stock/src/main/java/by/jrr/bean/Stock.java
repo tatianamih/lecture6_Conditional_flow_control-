@@ -77,7 +77,5 @@ public class Stock {
                 ", maxPrice=" + maxPrice +
                 '}';
     }
-
-   
 }
 

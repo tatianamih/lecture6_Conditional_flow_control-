@@ -58,6 +58,7 @@ public class StockTest {
             boolean actual = firstStock.equals(secondStock);
             assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsNamesCompany() {
         Stock firstStock = new Stock();
@@ -70,6 +71,7 @@ public class StockTest {
         boolean actual = firstStock.equals(secondStock);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsMinPrice() {
         Stock firstStock = new Stock();
@@ -82,6 +84,7 @@ public class StockTest {
         boolean actual = firstStock.equals(secondStock);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsMaxPrice() {
         Stock firstStock = new Stock();

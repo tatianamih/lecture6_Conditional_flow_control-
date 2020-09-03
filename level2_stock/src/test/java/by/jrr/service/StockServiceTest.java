@@ -14,7 +14,6 @@ public class StockServiceTest {
         StockService stockService = new StockService(stock);
         stockService.updatePrice(50);
 
-
         boolean maxPriceExpected = true;
         boolean actualMaxPrice = (stock.getMaxPrice() == 50 ) && (stock.getCurrentPrice() == 50);
         assertEquals(maxPriceExpected, actualMaxPrice);
@@ -31,6 +30,7 @@ public class StockServiceTest {
         assertEquals(minPriceExpected, actualMinPrice);
 
     }
+
     @Test
     public void updatePriceTestNewPriceBetweenMinPriceAndMaxPrice() {
         Stock stock = new Stock("Amazon",48);//5
@@ -42,8 +42,6 @@ public class StockServiceTest {
         boolean expected = true;
         boolean actual = (stock.getCurrentPrice() == 49.16);
         assertEquals(expected, actual);
-
-
     }
 
     @Test
