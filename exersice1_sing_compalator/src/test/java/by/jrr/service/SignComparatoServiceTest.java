@@ -11,11 +11,11 @@ public class SignComparatoServiceTest {
     public SignComparatoServiceTest() {
 // no args constructor
     }
+
     Logger logger = LoggerFactory.getLogger(SignComparatoServiceTest.class);
 
     @Test
     public void determineThePositiveSign() {
-
         SignComparato signComparato = new SignComparato();
         SignComparatoService signComparatoService = new SignComparatoService();
         signComparato.setNumber(5000);
@@ -26,9 +26,9 @@ public class SignComparatoServiceTest {
         String actual = signComparatoService.determineTheSign(signComparato);
         assertEquals(expected, actual);
     }
+
     @Test
     public void determineTheNegativeSign() {
-
         SignComparato signComparato = new SignComparato();
         SignComparatoService signComparatoService = new SignComparatoService();
         signComparato.setNumber(-5000);
@@ -39,9 +39,9 @@ public class SignComparatoServiceTest {
         String actual = signComparatoService.determineTheSign(signComparato);
         assertEquals(expected, actual);
     }
+
     @Test
     public void determineTheSignNumberIsEqualToZero() {
-
         SignComparato signComparato = new SignComparato();
         SignComparatoService signComparatoService = new SignComparatoService();
         signComparato.setNumber(0);
