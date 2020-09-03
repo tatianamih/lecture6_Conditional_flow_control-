@@ -1,0 +1,1 @@
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tatianamih_lecture6_Conditional_flow_control-)](https://sonarcloud.io/dashboard?id=tatianamih_lecture6_Conditional_flow_control-)
