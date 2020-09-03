@@ -72,7 +72,7 @@ public class LightColorDetectorServiceTest {
         assertEquals(expected, actual);
     }
     @Test
-    public void detectTheColorOfTheSpectrumInvisibleLight() { //Out of range - "Invisible Light"
+    public void detectTheColorOfTheSpectrumInvisibleLight() { //Out of range -   "Invisible Light"
         LightColorDetector lightColorDetector = new LightColorDetector();
         LightColorDetectorService lightColorDetectorService = new LightColorDetectorService();
         lightColorDetector.setWavelength(751);

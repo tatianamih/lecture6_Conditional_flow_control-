@@ -3,7 +3,9 @@ package by.jrr.jis4.bean;
 import java.util.Objects;
 
 public class LightColorDetector {
+
     private int wavelength;
+
 
     public LightColorDetector() {
         // no args constructor
