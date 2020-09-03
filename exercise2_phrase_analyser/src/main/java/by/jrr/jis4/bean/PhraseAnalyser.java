@@ -52,6 +52,7 @@ public class PhraseAnalyser {
         return Objects.hash(firstPartOfTheText, middlePartOfTheText, pastPartOfTheText);
     }
 
+
     @Override
     public String toString() {
         return "PhraseAnalyser{" +

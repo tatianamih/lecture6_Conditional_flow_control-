@@ -48,11 +48,11 @@ public class PhraseAnalyserTest {
         secondPhraseAnalyser.setMiddlePartOfTheText("world");
         secondPhraseAnalyser.setPastPartOfTheText("great again");
 
-
         Boolean expected = true;
         Boolean actual = firstPhraseAnalyser.equals(secondPhraseAnalyser);
         assertEquals(expected, actual);
     }
+
     @Test
     public void testEqualsFalse() {
         PhraseAnalyser firstPhraseAnalyser = new PhraseAnalyser();

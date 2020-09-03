@@ -34,6 +34,7 @@ public class PhraseAnalyserServiceTest {
         actual =textService.analyse(text);
         assertEquals(expected, actual);
     }
+
     @Test
     public void analyseThirdVariant() {
         PhraseAnalyser text = new PhraseAnalyser();
@@ -47,6 +48,7 @@ public class PhraseAnalyserServiceTest {
         actual =textService.analyse(text);
         assertEquals(expected, actual);
     }
+
     @Test
     public void analyseFourthVariant() {
         PhraseAnalyser text = new PhraseAnalyser();

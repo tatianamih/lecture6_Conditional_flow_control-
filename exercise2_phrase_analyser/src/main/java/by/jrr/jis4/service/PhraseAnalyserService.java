@@ -9,8 +9,6 @@ public class PhraseAnalyserService {
     }
 
     public String analyse(PhraseAnalyser text) {
-       
-
         if (text.getFirstPartOfTheText().equals("Make") && text.getPastPartOfTheText().equals("great again")) {
             return "It stands no chance";
         } else if (text.getFirstPartOfTheText().equals("Make") || text.getPastPartOfTheText().equals("great again")) {
